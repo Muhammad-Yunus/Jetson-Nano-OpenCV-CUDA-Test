@@ -7,12 +7,12 @@ To make CUDA enable in OpenCV, we need to build the OpenCV with CUDA from Source
 ## Test OpenCV CUDA 
 - Run `opencv-info.py` to check build information (ensure if CUDA already enabled in OPENCV),
 ```
-$ python3 opencv-info.py<br>
+$ python3 opencv-info.py
 ```
 - Run `test-cuda.py` to test basic CUDA operation using OpenCV,
 ```
 $ python3 test-cuda.py
-```<br>
+```
 - Run `opencv-dnn-cuda.py` to test CUDA as target and backend OpenCV DNN (Tiny Yolo V3 Inferencing @coco dataset),
     - using CUDA as backend and target OpenCV DNN :
     ```
