@@ -5,7 +5,7 @@ L4T (Linux for Tegra) OS used by Jetson Nano is already included with NVIDIA Jet
 To make CUDA enable in OpenCV, we need to build the OpenCV with CUDA from Source. You follow this repo to do that : https://github.com/mdegans/nano_build_opencv
 
 ## Test OpenCV with CUDA Enabled
-- Run `opencv-info.py` to check build information (ensure if CUDA already enabled in OPENCV),
+- Run `opencv-info.py` to check build information (to make sure if CUDA already enabled in OPENCV),
 ```
 $ python3 opencv-info.py
 ```
